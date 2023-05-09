@@ -1,0 +1,101 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+/// 
+@media (max-width: 834px) {}
+.song-preview-card {
+  margin: 40px 210px;
+  background-color: #9296C4;
+  width: 100%;
+  height: 100%;
+  max-width: 413px;
+  max-height: 807px;
+  border-radius: 24px;
+  padding: 10px;
+  color: white;
+
+  .song-preview-card__image-container {
+    
+    position: relative;
+    border-radius: 36px;
+    width: 100%;
+    height: 381px;
+    overflow: hidden;
+  }
+
+  .song-preview-card__content {
+    margin-top:7px;
+    padding: 17px;
+  }
+
+  .song-preview-card__title {
+    font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 700;
+  }
+
+  .song-preview-card__artist-and-time {
+    margin-top: 0.1px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .song-preview-card__time
+  {
+    display: flex;
+    
+  }
+  .song-preview-card__album-cover-container
+  {
+    margin-top: 10px;
+  }
+  .song-preview-poster{
+    display: flex;
+    margin-left: -88px;
+    padding-left: 10px;
+
+  }
+  
+  .song-preview-card__time-icon-poster
+  {
+    
+width: 40px;
+height: 40px;
+left: 80px;
+top: 535px;
+
+border-radius: 90px;
+  }
+  .song-preview-card__time-text
+  {
+    margin-left: 10px;
+  }
+  .song-preview-words
+  {
+     
+    
+    margin-top: 12px;
+    margin-left: 15px;
+    display: flex;
+    width: 276px;
+    height: 25px;
+
+  }
+  .song-preview-card__album-info-container{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+.song-preview-card__album-info-text
+{
+  margin-left: 12px;
+}
+.song-preview-card__album-info-dot-spacer
+{
+  margin-left: 4px;
+}
+  // [...]
+}
